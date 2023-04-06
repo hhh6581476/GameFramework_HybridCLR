@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <ResourceCollection>
+    <Resources>
+      <Resource Name="Configs/DefaultConfig" LoadType="0" Packed="False" />
+      <Resource Name="Configs/ResourceCollection" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/Aircraft" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/Armor" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/Asteroid" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/Entity" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/Music" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/Scene" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/Sound" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/Thruster" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/UIForm" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/UISound" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/Weapon" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Asteroid01" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Asteroid02" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Asteroid03" LoadType="0" Packed="False" />
+      <Resource Name="Entities/AsteroidExplosion" LoadType="0" Packed="False" />
+      <Resource Name="Entities/DefaultArmor" LoadType="0" Packed="False" />
+      <Resource Name="Entities/DefaultWeapon" LoadType="0" Packed="False" />
+      <Resource Name="Entities/EnemyBolt" LoadType="0" Packed="False" />
+      <Resource Name="Entities/EnemyEngine" LoadType="0" Packed="False" />
+      <Resource Name="Entities/EnemyExplosion" LoadType="0" Packed="False" />
+      <Resource Name="Entities/EnemyShip" LoadType="0" Packed="False" />
+      <Resource Name="Entities/PlayerBolt" LoadType="0" Packed="False" />
+      <Resource Name="Entities/PlayerEngine" LoadType="0" Packed="False" />
+      <Resource Name="Entities/PlayerExplosion" LoadType="0" Packed="False" />
+      <Resource Name="Entities/PlayerShip" LoadType="0" Packed="False" />
+      <Resource Name="Fonts/MainFont" LoadType="0" Packed="False" />
+      <Resource Name="HotfixDlls/Hotfix" LoadType="0" Packed="False" />
+      <Resource Name="HotfixDlls/HotfixFileList" LoadType="0" Packed="False" />
+      <Resource Name="Localization/ChineseSimplified/Dictionaries/Default" LoadType="0" Packed="False" />
+      <Resource Name="Localization/ChineseTraditional/Dictionaries/Default" LoadType="0" Packed="False" />
+      <Resource Name="Localization/English/Dictionaries/Default" LoadType="0" Packed="False" />
+      <Resource Name="Localization/Korean/Dictionaries/Default" LoadType="0" Packed="False" />
+      <Resource Name="Materials/done_fx_bolt_cyan_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/done_fx_bolt_orange_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/done_tile_nebula_green_dff" LoadType="0" Packed="False" />
+      <Resource Name="Materials/fx_enemyShip_engines_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/part_blast_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/part_glow_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/part_jet_core_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/part_jet_flare_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/part_shockwave_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/part_spark_blue_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/part_spark_large_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/part_spark_white_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/part_spark_yellow_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/part_star_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/prop_asteroid_01_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/prop_asteroid_02_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/prop_asteroid_03_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/vehicle_enemyShip_glow_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/vehicle_enemyShip_metal_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/vehicle_playerShip_glass_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/vehicle_playerShip_metal_mat" LoadType="0" Packed="False" />
+      <Resource Name="Meshes/prop_asteroid_01" LoadType="0" Packed="False" />
+      <Resource Name="Meshes/prop_asteroid_02" LoadType="0" Packed="False" />
+      <Resource Name="Meshes/prop_asteroid_03" LoadType="0" Packed="False" />
+      <Resource Name="Meshes/vehicle_enemyShip" LoadType="0" Packed="False" />
+      <Resource Name="Meshes/vehicle_playerShip" LoadType="0" Packed="False" />
+      <Resource Name="Meshes/vehicle_playerShip_collider" LoadType="0" Packed="False" />
+      <Resource Name="Music/music_about" LoadType="0" Packed="False" />
+      <Resource Name="Music/music_background" LoadType="0" Packed="False" />
+      <Resource Name="Music/music_menu" LoadType="0" Packed="False" />
+      <Resource Name="Scenes/Main" LoadType="0" Packed="False" />
+      <Resource Name="Scenes/Menu" LoadType="0" Packed="False" />
+      <Resource Name="Sounds/explosion_asteroid" LoadType="0" Packed="False" />
+      <Resource Name="Sounds/explosion_enemy" LoadType="0" Packed="False" />
+      <Resource Name="Sounds/explosion_player" LoadType="0" Packed="False" />
+      <Resource Name="Sounds/weapon_enemy" LoadType="0" Packed="False" />
+      <Resource Name="Sounds/weapon_player" LoadType="0" Packed="False" />
+      <Resource Name="Textures/fx_lazer_cyan_dff" LoadType="0" Packed="False" />
+      <Resource Name="Textures/fx_lazer_orange_dff" LoadType="0" Packed="False" />
+      <Resource Name="Textures/part_enginePulse_dff" LoadType="0" Packed="False" />
+      <Resource Name="Textures/part_flash_dff" LoadType="0" Packed="False" />
+      <Resource Name="Textures/part_jet_core_dff" LoadType="0" Packed="False" />
+      <Resource Name="Textures/part_jet_flare_dff" LoadType="0" Packed="False" />
+      <Resource Name="Textures/part_shockwave_dff" LoadType="0" Packed="False" />
+      <Resource Name="Textures/part_spark_large_dff" LoadType="0" Packed="False" />
+      <Resource Name="Textures/part_spark_small_dff" LoadType="0" Packed="False" />
+      <Resource Name="Textures/part_star_dff" LoadType="0" Packed="False" />
+      <Resource Name="Textures/prop_asteroid_01_dff" LoadType="0" Packed="False" />
+      <Resource Name="Textures/prop_asteroid_01_nrm" LoadType="0" Packed="False" />
+      <Resource Name="Textures/prop_asteroid_02_dff" LoadType="0" Packed="False" />
+      <Resource Name="Textures/prop_asteroid_02_nrm" LoadType="0" Packed="False" />
+      <Resource Name="Textures/prop_asteroid_03_dff" LoadType="0" Packed="False" />
+      <Resource Name="Textures/prop_asteroid_03_nrm" LoadType="0" Packed="False" />
+      <Resource Name="Textures/tile_nebula_green_dff" LoadType="0" Packed="False" />
+      <Resource Name="Textures/vehicle_enemyShip_nrm" LoadType="0" Packed="False" />
+      <Resource Name="Textures/vehicle_enemyShip_purple_dff" LoadType="0" Packed="False" />
+      <Resource Name="Textures/vehicle_playerShip_orange_dff" LoadType="0" Packed="False" />
+      <Resource Name="Textures/vehicle_playerShip_orange_nrm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/AboutForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/CreateEditAudioForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/CreateEditTextForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/CreatePreviewForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/CreateViewForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/DialogForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/EmptyForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/HomeForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/LoginForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/MenuForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/MineForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/SettingForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIItems/AssetItem" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIItems/AssetSelectMenu" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIItems/BottomMenu" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIItems/CardItem" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISounds/click" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISounds/select" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/background" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/box" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/button-filled" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/button-outline" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/checked" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/circle" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/circle-filled" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/circle-outline" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/dialog-background" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/dialog-title-background" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/info" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/line" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/progress-conner" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/progressbar" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/progressbar-background" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/round-button-filled" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/round-button-outline" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreatePreviewForm/edit_bg_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreatePreviewForm/edit_icon_kuang_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreatePreviewForm/home_icon_close" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreatePreviewForm/Previewbg" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/bgRaw" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/bianji" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/bianjiAddModel" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/bianjiAudioFinish" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/bianjiAudioPlay" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/bianjiAudioPlaying" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/bianjiAudioText" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/bianjitext" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/bianjiTitle" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/bianjituichu" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/bianjixuniren" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/bianjiziyuan" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/biaojiAddImg" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/biaojifengmian" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/binajiAudio" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/binajiAutoSave" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/bioajiAdd1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_bar_hui_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_bar_lan_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_bar_yuan_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_bg_pyz_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_bg_srk" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_bg_srk_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_biankuang_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_btn_queding_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_btn_quxiao_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_bjfm_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_delete_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_fangkuang" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_fangkuang_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_fanhui_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_ghxnr" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_ghxnr_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_img_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_increase" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_increase_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_jiangjie_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_model_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_pybg_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_st" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_st_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_stbg_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_wenzi_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_xnrmc_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_you_dis" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_yuandian_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_icon_zuo_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_pop_bjfm_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_pop_kuang" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/CreateViewForm/edit_pop_kuang_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/HomeForm/home_icon_jptj_s" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/HomeForm/home_icon_kscz_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/HomeForm/home_img_kscz_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Icons/music" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Icons/sound" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Icons/world" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/LoginForm/login_bg" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/LoginForm/login_btn_dis" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/LoginForm/login_btn_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/LoginForm/login_btn_yzm_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/LoginForm/login_btn_yzm_n1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/LoginForm/login_cursor_sr_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/LoginForm/login_icon_delete_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/LoginForm/login_icon_gouxuan_dis" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/LoginForm/login_icon_gouxuan_s" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/LoginForm/login_underline_sr" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/LoginForm/login_underline_sr_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/LoginForm/Show1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/LoginForm/Show2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/LoginForm/Show3" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/LoginForm/Show4" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Logos/unity-logo" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MainForm/home_icon_sy_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MainForm/home_icon_sy_s" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MainForm/home_icon_wd_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MainForm/home_icon_wd_s" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MainForm/home_img_list_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MainForm/juxing1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MainForm/juxing2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MainForm/login_bg" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MainForm/tuoyuan6" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MainForm/tuoyuankaobei3" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MainForm/tuoyuankaobei4" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MainForm/xingzhuang1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_bg_jmz_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_bg_list_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_bg_mx_s" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_bg_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_bg_qiehuan_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_bg_shcg_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_bg_shsb_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_bg_shz_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_bg_smwt_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_bg_tp_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_icon_bj_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_icon_delete_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_icon_jrzyk_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_icon_more_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_icon_sc_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_icon_shsb_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_icon_shtg_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_icon_shz_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_icon_sm_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_icon_tp_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_icon_tp_s" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_icon_yuan_s" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_pop_bj" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_pop_bj_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/me_pop_zf_n" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/MineForm/model" LoadType="0" Packed="False" />
+    </Resources>
+    <Assets>
+      <Asset Guid="0173632e7b13a0244ad4d481cfa2090b" ResourceName="UI/UISprites/CreatePreviewForm/home_icon_close" />
+      <Asset Guid="0179316b5fc7c2946a67c5877c02fc30" ResourceName="UI/UISprites/Common/info" />
+      <Asset Guid="04d7dde7615d71b4db1a0c8d67a62e95" ResourceName="UI/UIForms/DialogForm" />
+      <Asset Guid="04dbc0581071c254ea6564b2ff06ff9b" ResourceName="Textures/part_shockwave_dff" />
+      <Asset Guid="0541c2e2646a71940b51d40b66bb7c69" ResourceName="UI/UISprites/CreateViewForm/edit_pop_bjfm_n" />
+      <Asset Guid="05ee785eb5151754bb859aa8fe8b42ad" ResourceName="UI/UISprites/CreateViewForm/edit_icon_wenzi_n" />
+      <Asset Guid="06337caa22381014487238de3c5ce510" ResourceName="UI/UISprites/MineForm/me_bg_shz_n" />
+      <Asset Guid="07324035f2713ae4b8d5a4df3b2156a6" ResourceName="UI/UISprites/LoginForm/Show1" />
+      <Asset Guid="093f8873cfe371d41b854ed9fb6bff69" ResourceName="Music/music_about" />
+      <Asset Guid="0963e6c65b2b1f74d9f455e21901e2dc" ResourceName="Textures/part_jet_core_dff" />
+      <Asset Guid="0992f89f84d762f478fd32f8225168b0" ResourceName="Entities/DefaultArmor" />
+      <Asset Guid="09966b19e546cc94aa84d0743cb2a83d" ResourceName="UI/UIForms/MenuForm" />
+      <Asset Guid="0a65a68c01a76ea4b8b574827a6467aa" ResourceName="UI/UISprites/Common/dialog-title-background" />
+      <Asset Guid="0bfc7345010a39e4a8752d1a221e506d" ResourceName="UI/UISprites/CreateViewForm/bianjiziyuan" />
+      <Asset Guid="0ea7c3b2da7ddb24ea567f5efa84f944" ResourceName="UI/UISprites/MineForm/me_icon_delete_n" />
+      <Asset Guid="0ed73dc47f4cb38489020d05e9f02c99" ResourceName="Materials/part_glow_mat" />
+      <Asset Guid="0ee9230f2c708b840a708d7720f5e433" ResourceName="UI/UISprites/LoginForm/Show3" />
+      <Asset Guid="0f995b3145e0e7247a42da6cef1dbf23" ResourceName="Materials/part_spark_white_mat" />
+      <Asset Guid="1053b0070685be347ab58587156842dc" ResourceName="Localization/ChineseTraditional/Dictionaries/Default" />
+      <Asset Guid="10b70b4fd6e71044f9d9528d0faab587" ResourceName="UI/UISprites/LoginForm/login_cursor_sr_n" />
+      <Asset Guid="11315677a81de484e9055e9e73d13a8f" ResourceName="UI/UIItems/AssetSelectMenu" />
+      <Asset Guid="11e27c26ac87b40f0a62ec40d7261989" ResourceName="Entities/EnemyBolt" />
+      <Asset Guid="1478894bc9a1ed241b05b0862a7b8bce" ResourceName="Textures/part_spark_small_dff" />
+      <Asset Guid="14869ac0d4433f04db1704e39d03412e" ResourceName="Localization/English/Dictionaries/Default" />
+      <Asset Guid="156d241f796508c4da4fc354a7fbf5a8" ResourceName="UI/UISprites/Common/progressbar-background" />
+      <Asset Guid="15951c3928eb3224cb49fd6994774f59" ResourceName="UI/UISprites/MainForm/tuoyuankaobei4" />
+      <Asset Guid="160925a6fe2664f2a978566b819f0af0" ResourceName="Entities/EnemyExplosion" />
+      <Asset Guid="16a0907b698b92b45970837f38ecac86" ResourceName="UI/UISprites/CreateViewForm/edit_bg_srk" />
+      <Asset Guid="16dc1bc54631c154ba68656659668e17" ResourceName="UI/UISprites/MineForm/me_bg_smwt_n" />
+      <Asset Guid="185f97f18bd603a478461ce9c08bd039" ResourceName="Materials/part_star_mat" />
+      <Asset Guid="1b4bad6cea5a94611b21f9757fe41444" ResourceName="Materials/fx_enemyShip_engines_mat" />
+      <Asset Guid="1b78b75130db873418217db2ef4de068" ResourceName="UI/UISprites/MainForm/home_icon_wd_n" />
+      <Asset Guid="1be4472894949437694aead55c6da60f" ResourceName="Sounds/weapon_enemy" />
+      <Asset Guid="1bec39aef233e144d9883405a6e97a07" ResourceName="UI/UISprites/CreateViewForm/edit_icon_img_n" />
+      <Asset Guid="1c89236d45255234ebd1d39657ff7e02" ResourceName="Textures/part_star_dff" />
+      <Asset Guid="1ca5cd8f865343e4ea81bd7fd5964838" ResourceName="UI/UISprites/CreateViewForm/edit_biankuang_n" />
+      <Asset Guid="1cfe02ffd0b74854ea5bcd1a3c63ac3c" ResourceName="Materials/part_blast_mat" />
+      <Asset Guid="1d46a17a95a444c08830612bc1146d1d" ResourceName="Materials/part_shockwave_mat" />
+      <Asset Guid="1ddfd0bd86503704bb928986f381ef52" ResourceName="UI/UISprites/MineForm/me_icon_tp_s" />
+      <Asset Guid="1e0350b97c61bfb4a91c62d756d01727" ResourceName="Materials/vehicle_enemyShip_glow_mat" />
+      <Asset Guid="1f2fbc94ddd0ba34fbdd05a9c25964f1" ResourceName="UI/UISprites/CreateViewForm/edit_bg_srk_n" />
+      <Asset Guid="1f6e758a5f34bba42a174aba38b99e01" ResourceName="UI/UISprites/MainForm/home_img_list_n" />
+      <Asset Guid="1fa79c5db6abda7438107363c3eb8efa" ResourceName="HotfixDlls/Hotfix" />
+      <Asset Guid="21f8261efdfbd6f419e2600b9b628300" ResourceName="UI/UISprites/HomeForm/home_icon_jptj_s" />
+      <Asset Guid="236433a27ce40a7429b87d14d8fa3035" ResourceName="UI/UISprites/Common/progress-conner" />
+      <Asset Guid="239366f83979ffa48a45dac2f0f1e8cb" ResourceName="DataTables/Armor" />
+      <Asset Guid="24ca310f92a6796408f1db7647ec4e55" ResourceName="UI/UISprites/Common/circle" />
+      <Asset Guid="273072f80f458244b9bb81a937e54443" ResourceName="UI/UISprites/MineForm/me_icon_tp_n" />
+      <Asset Guid="2768a9a4c8d289840918dcb879705893" ResourceName="Meshes/prop_asteroid_03" />
+      <Asset Guid="277e086f5c311724ea83800500495535" ResourceName="UI/UISprites/MainForm/juxing1" />
+      <Asset Guid="2899d5f6ef5c93546bec64a29626c2ad" ResourceName="UI/UISprites/CreateViewForm/edit_bar_yuan_n" />
+      <Asset Guid="289b9444da197e04d90d1100397481c6" ResourceName="UI/UISprites/MineForm/me_icon_sm_n" />
+      <Asset Guid="28d369ad7d8f7784b9412f88fc82dbcc" ResourceName="UI/UISprites/CreateViewForm/edit_icon_pybg_n" />
+      <Asset Guid="28e4b0ecec37fe44d937be32dca6e965" ResourceName="UI/UISprites/CreateViewForm/bianjituichu" />
+      <Asset Guid="297ef43ec5b210a49aa336f90a3ee1b8" ResourceName="UI/UISprites/CreateViewForm/edit_icon_yuandian_n" />
+      <Asset Guid="2a56bc06d5129494cb0de431b79806e9" ResourceName="UI/UISprites/CreateViewForm/edit_bg_srk" />
+      <Asset Guid="2cb5eef4d7d7bf6459dd13a3f8d90246" ResourceName="Textures/part_jet_flare_dff" />
+      <Asset Guid="313e6df213a13104886ba046865fa0f1" ResourceName="UI/UISprites/MineForm/me_bg_tp_n" />
+      <Asset Guid="315e8ed2db27c254cb3366ff0793cd90" ResourceName="DataTables/Music" />
+      <Asset Guid="31b4c611ba791fa4c897629c8c1de216" ResourceName="UI/UISprites/CreateViewForm/edit_icon_jiangjie_n" />
+      <Asset Guid="33fb8e1358e92ed4d83fdd17505d2368" ResourceName="UI/UISprites/MainForm/login_bg" />
+      <Asset Guid="3455fe69f7ddc4604b95bf9b0a1e88d7" ResourceName="Entities/PlayerExplosion" />
+      <Asset Guid="34e7d65cc8eef344796f4bb607a511d5" ResourceName="UI/UISprites/LoginForm/login_icon_gouxuan_s" />
+      <Asset Guid="352da872791696c48af3b21132e3e3c3" ResourceName="DataTables/UIForm" />
+      <Asset Guid="372a8b1e52bedc64b9207b12d167afaa" ResourceName="DataTables/Sound" />
+      <Asset Guid="376f60f99bb5eb7428df4e3ad2836a49" ResourceName="UI/UISprites/CreateViewForm/edit_icon_fangkuang" />
+      <Asset Guid="38582bf038fb52e4ca1ea8a25ade2746" ResourceName="UI/UISprites/CreateViewForm/edit_icon_increase_n" />
+      <Asset Guid="3aa539b1e46111d4299a83c73ebe762c" ResourceName="UI/UIForms/AboutForm" />
+      <Asset Guid="3be3fac3611f4584695662c4889f722d" ResourceName="UI/UISprites/Common/circle-outline" />
+      <Asset Guid="3dc7455402dfa462b89a4bbd513955e9" ResourceName="Sounds/explosion_asteroid" />
+      <Asset Guid="3e504a46a8fcec34db3c4776530c6eb2" ResourceName="Textures/part_flash_dff" />
+      <Asset Guid="3f54fcfdac53aec42ae18a6a1c6d8cb1" ResourceName="UI/UISprites/Common/checked" />
+      <Asset Guid="4357ac62fdd2e20438efb12c61171a03" ResourceName="UI/UISprites/CreateViewForm/bianjiAudioText" />
+      <Asset Guid="4424ab463ff68084186ddab040ae22a3" ResourceName="UI/UISprites/MainForm/home_icon_wd_s" />
+      <Asset Guid="4473d81b14ddb0143addf0e6050d8491" ResourceName="Scenes/Main" />
+      <Asset Guid="448f62ea40f1498418458394ca107dc5" ResourceName="UI/UISprites/CreateViewForm/edit_icon_increase" />
+      <Asset Guid="44c8db52241385c45bbb14a1718f17bf" ResourceName="Configs/DefaultConfig" />
+      <Asset Guid="4a17d2c656f5c6b44a31e3ee547a76b0" ResourceName="DataTables/Aircraft" />
+      <Asset Guid="4bd527aa3a0c1a0499aa701c81e4d065" ResourceName="UI/UISprites/CreateViewForm/biaojifengmian" />
+      <Asset Guid="4c3865b2ac420cd46a9cde6ab468d016" ResourceName="Materials/prop_asteroid_03_mat" />
+      <Asset Guid="4db6a299939bfe94893585eb387f577a" ResourceName="DataTables/Thruster" />
+      <Asset Guid="4e3c3c6b95ffae543a636bdb65b713a1" ResourceName="UI/UISprites/CreateViewForm/bianjiTitle" />
+      <Asset Guid="4f688097e85071841a2c3ba165000c20" ResourceName="Textures/vehicle_playerShip_orange_dff" />
+      <Asset Guid="5282f20eba4d44213820e21af8481932" ResourceName="Meshes/vehicle_playerShip_collider" />
+      <Asset Guid="54bb1f4997d70c743b97f6d399dad25e" ResourceName="UI/UISprites/CreateViewForm/edit_pop_kuang_n" />
+      <Asset Guid="54c48e33f8fcf4748b13b7dfd150dbef" ResourceName="UI/UISprites/LoginForm/login_btn_dis" />
+      <Asset Guid="54fff3f0995ab2748af29e6400130fd9" ResourceName="UI/UISprites/HomeForm/home_icon_kscz_n" />
+      <Asset Guid="55a22bfd54bb3e54492cc6f4cf736290" ResourceName="UI/UISprites/CreateViewForm/edit_icon_fanhui_n" />
+      <Asset Guid="565fe3cad0b82b747abcf896dc807d3c" ResourceName="UI/UISprites/MineForm/me_bg_list_n" />
+      <Asset Guid="56b8df63bbad60749a69e38bc687fadf" ResourceName="UI/UISprites/Common/circle-filled" />
+      <Asset Guid="578af1667322bab45b652b79a40bb4fb" ResourceName="Materials/prop_asteroid_02_mat" />
+      <Asset Guid="583ff7026dac91849b7c7b2468ba456b" ResourceName="Materials/prop_asteroid_01_mat" />
+      <Asset Guid="5d7e1c2bc03503d42881ae1de53c5a9a" ResourceName="HotfixDlls/HotfixFileList" />
+      <Asset Guid="5dcd89912e222bf4c87f76db4044bc5e" ResourceName="Localization/Korean/Dictionaries/Default" />
+      <Asset Guid="61cd18d2ce51b6e4fbf58a858ab0cbd8" ResourceName="UI/UISprites/MineForm/me_icon_yuan_s" />
+      <Asset Guid="62af9e5c8f39cfa49af9e10ccf42f1da" ResourceName="UI/UISprites/Common/round-button-outline" />
+      <Asset Guid="62bf3f08eec6ca943a56374c6cd395a0" ResourceName="UI/UISprites/MineForm/me_icon_more_n" />
+      <Asset Guid="638ff8ae4a0d15047839cd265d3bc296" ResourceName="Music/music_background" />
+      <Asset Guid="63fe6ff9ab9e1433f8db4ebd940f2442" ResourceName="Materials/done_fx_bolt_cyan_mat" />
+      <Asset Guid="64c7d4fb8c400df439aed6ce68df979d" ResourceName="UI/UISprites/CreateViewForm/edit_icon_zuo_n" />
+      <Asset Guid="64d6c03369768fc4482d67dc08abcd27" ResourceName="UI/UISprites/LoginForm/login_underline_sr_n" />
+      <Asset Guid="64f3bb52c6a54854688fcc656af2b1c9" ResourceName="DataTables/Aircraft" />
+      <Asset Guid="65382a7d1cab17641ba54c21a1462170" ResourceName="UI/UIForms/CreateViewForm" />
+      <Asset Guid="65648e77c113bfb44a36c51ec9d19663" ResourceName="UI/UISprites/MineForm/me_pop_zf_n" />
+      <Asset Guid="66bcc1364b28fb54db9ebc4d9c010e11" ResourceName="UI/UISprites/MineForm/me_bg_jmz_n" />
+      <Asset Guid="68d1c442df4101e4ba3f730478900ecd" ResourceName="UI/UISprites/MainForm/home_icon_sy_n" />
+      <Asset Guid="6bb2f123b8942b640986cd77bd273df1" ResourceName="UI/UIItems/BottomMenu" />
+      <Asset Guid="6cbc2c323b77f804fb958fa4eca33998" ResourceName="UI/UISprites/Common/line" />
+      <Asset Guid="6d238d03059e34f43886aa35c4591230" ResourceName="UI/UISprites/LoginForm/login_bg" />
+      <Asset Guid="6d9b42ac01f24bf4d98923573f103575" ResourceName="Textures/prop_asteroid_02_nrm" />
+      <Asset Guid="6db0c8354d868834abf29840037591b1" ResourceName="Textures/vehicle_playerShip_orange_nrm" />
+      <Asset Guid="6e023ca4283b3a7469cd61d24c83048c" ResourceName="Textures/vehicle_enemyShip_nrm" />
+      <Asset Guid="6e3730451fa077346abd4ac642ea71d8" ResourceName="Textures/fx_lazer_cyan_dff" />
+      <Asset Guid="6e5d026bf0652ed4380f6a66f4aa26c5" ResourceName="Textures/vehicle_enemyShip_purple_dff" />
+      <Asset Guid="71646ebaae78d43aeb8b53cacdb69671" ResourceName="Textures/tile_nebula_green_dff" />
+      <Asset Guid="7182b5d438706a04ea02361d3d458c2d" ResourceName="UI/UISprites/CreateViewForm/bianjixuniren" />
+      <Asset Guid="7231d8d94e057574fbdfdce465ffdbc6" ResourceName="UI/UISprites/MineForm/me_icon_shz_n" />
+      <Asset Guid="72e76810224064300b7d32e8322a5d12" ResourceName="Sounds/explosion_enemy" />
+      <Asset Guid="738bdf56857a65f479c367c7b62c4ad7" ResourceName="Entities/PlayerShip" />
+      <Asset Guid="74517eae4ad18d74ab43ec52b0a0f092" ResourceName="UI/UISprites/MainForm/juxing2" />
+      <Asset Guid="756b7c1198e66f245a0722d8269358ab" ResourceName="UI/UISprites/CreateViewForm/edit_icon_model_n" />
+      <Asset Guid="775e8a7ba9222e24f9d9bc0ea9b52fa2" ResourceName="UI/UISprites/CreateViewForm/bianji" />
+      <Asset Guid="77cbb7c5404c10242ab59953e0746314" ResourceName="Fonts/MainFont" />
+      <Asset Guid="7a4800d80411f024c9ad4bdb6603eac0" ResourceName="UI/UISprites/CreatePreviewForm/edit_icon_kuang_n" />
+      <Asset Guid="7be9611adfc58f94ab765d913e316c84" ResourceName="UI/UISprites/CreateViewForm/edit_bar_lan_n" />
+      <Asset Guid="7d5f7699d6d1d48e485ac71126e12061" ResourceName="Entities/Asteroid01" />
+      <Asset Guid="7e91cd9bad7babf4b975882a4b7453cb" ResourceName="Textures/part_spark_large_dff" />
+      <Asset Guid="7eae0d2701845a54aa570b07c55dab44" ResourceName="Textures/prop_asteroid_03_nrm" />
+      <Asset Guid="7f5aee8da226edf4991598327cb32ce0" ResourceName="UI/UISprites/Logos/unity-logo" />
+      <Asset Guid="7fd11dc5d29076d469d414dec2818f11" ResourceName="Configs/DefaultConfig" />
+      <Asset Guid="80376e2c802830c4f952738efdf7a1bc" ResourceName="UI/UISprites/CreateViewForm/edit_bar_hui_n" />
+      <Asset Guid="8057fd0c8a0b6ad46b7d991d185806cd" ResourceName="UI/UISprites/MineForm/me_icon_jrzyk_n" />
+      <Asset Guid="805bbe7f3cfcdfd4ab6753242e10fb31" ResourceName="UI/UISprites/MainForm/xingzhuang1" />
+      <Asset Guid="8169ddad24dc80d44abc7157aa61a0a4" ResourceName="UI/UISprites/MineForm/me_pop_bj" />
+      <Asset Guid="825801f4c2624164ca6b5a20bdbacec6" ResourceName="UI/UISprites/MineForm/me_bg_qiehuan_n" />
+      <Asset Guid="82a92690506a3f345abd8359887c9d80" ResourceName="UI/UISprites/CreatePreviewForm/Previewbg" />
+      <Asset Guid="82dade2fb24310e4cbfe246e358e3a74" ResourceName="UI/UISprites/CreateViewForm/bianjiAddModel" />
+      <Asset Guid="834bfaee90a9d4e04b1e8c1ca22cc88e" ResourceName="Entities/Asteroid03" />
+      <Asset Guid="836be25be3e1e8c41ae5545bc8a9a4d7" ResourceName="Textures/prop_asteroid_03_dff" />
+      <Asset Guid="83a98645796ef9748b61ee8e3caae232" ResourceName="UI/UISprites/MineForm/me_icon_sc_n" />
+      <Asset Guid="8940b037a9b441c4cbd3d2b446838424" ResourceName="Materials/vehicle_playerShip_metal_mat" />
+      <Asset Guid="8b1acacd22538f34cb85287a0781ea5e" ResourceName="DataTables/Weapon" />
+      <Asset Guid="8c21a81e21954d5408f58b427fffcc7f" ResourceName="UI/UISprites/MineForm/me_bg_shsb_n" />
+      <Asset Guid="8cf749fdfa5edc3478d16893efeaa0eb" ResourceName="Entities/PlayerEngine" />
+      <Asset Guid="8e114ded6a865324588170636872943c" ResourceName="DataTables/UISound" />
+      <Asset Guid="8e27380ee68aa4a219b4db9018e7da31" ResourceName="Materials/done_fx_bolt_orange_mat" />
+      <Asset Guid="8ebd2476e014c6849ac965fdcc7ae8cc" ResourceName="UI/UISprites/MainForm/tuoyuan6" />
+      <Asset Guid="8fd38ae017ce9b64e91fec8157aa5487" ResourceName="UI/UISprites/MainForm/home_icon_sy_s" />
+      <Asset Guid="9143e2b62ad50488482f9b73672fc331" ResourceName="Entities/Asteroid02" />
+      <Asset Guid="9278ece16785b6944bf9573245f552e7" ResourceName="UI/UISprites/CreateViewForm/binajiAutoSave" />
+      <Asset Guid="93f9112f70622f94eaf6ed1a849b77f4" ResourceName="UI/UIForms/CreatePreviewForm" />
+      <Asset Guid="955000b4d1441470e8cbf94f483228b5" ResourceName="Materials/done_tile_nebula_green_dff" />
+      <Asset Guid="95b43184ffa2cb146af9094c263ffcbe" ResourceName="UI/UISprites/CreateViewForm/edit_icon_bjfm_n" />
+      <Asset Guid="965a7ca48a5bf7142b0c78c21cd5f4f4" ResourceName="UI/UISprites/CreateViewForm/bgRaw" />
+      <Asset Guid="97b1f8b25cca2bc458cb9d6127c8d186" ResourceName="Materials/part_spark_large_mat" />
+      <Asset Guid="97d117308cf86924289e81e7e71dd5dd" ResourceName="DataTables/Entity" />
+      <Asset Guid="98e4978dd57971746973d08cfcf1044d" ResourceName="UI/UISprites/LoginForm/login_underline_sr" />
+      <Asset Guid="99592a18b1b9554428a7ad82b9d0f133" ResourceName="UI/UISprites/CreateViewForm/edit_bg_pyz_n" />
+      <Asset Guid="9afa958d6d8235941b9badb42aae4370" ResourceName="Meshes/prop_asteroid_02" />
+      <Asset Guid="9b433f0bb7fef6f4085c316a0d88c307" ResourceName="DataTables/Music" />
+      <Asset Guid="9be2e1e45f4edd74c8764538ad306b78" ResourceName="Localization/ChineseSimplified/Dictionaries/Default" />
+      <Asset Guid="9c3961f379234354e813d7b38146424d" ResourceName="DataTables/Thruster" />
+      <Asset Guid="9c3faac13c8ced84a9f3018303b7bb98" ResourceName="DataTables/Sound" />
+      <Asset Guid="9c6340d1c56dae444b581803a335ae81" ResourceName="UI/UISprites/MineForm/me_bg_shcg_n" />
+      <Asset Guid="9ddab293e2a8af3499dac05f5fd6169c" ResourceName="Meshes/vehicle_enemyShip" />
+      <Asset Guid="9f76f82755e47b5418000403d810dede" ResourceName="UI/UIForms/LoginForm" />
+      <Asset Guid="9f847ec5e66e03e4ead1d3c5f7b510e8" ResourceName="UI/UISprites/Common/button-filled" />
+      <Asset Guid="a019ae3af8e864616b85773c509f5285" ResourceName="Sounds/explosion_player" />
+      <Asset Guid="a0ef74c067dfb5946b06520982d5ecfd" ResourceName="UI/UIItems/AssetItem" />
+      <Asset Guid="a23eef5e20ff8cb46adf33491fc443fb" ResourceName="Materials/part_spark_yellow_mat" />
+      <Asset Guid="a2a3a9a7628876c4fa966231c7a3fad1" ResourceName="UI/UISprites/LoginForm/Show2" />
+      <Asset Guid="a33e23ae848110243820cda82120b105" ResourceName="DataTables/UIForm" />
+      <Asset Guid="a36c4a54fcd7dd248b813c2dd28e918d" ResourceName="UI/UISprites/CreateViewForm/binajiAudio" />
+      <Asset Guid="a503a7fa6d6a29f41a5763669e7eee3b" ResourceName="UI/UISprites/HomeForm/home_img_kscz_n" />
+      <Asset Guid="a6d58f54ce5934781962a4f887e834f3" ResourceName="Entities/AsteroidExplosion" />
+      <Asset Guid="a71f8bb1b1b2c51438e2bafc884cb02c" ResourceName="DataTables/Scene" />
+      <Asset Guid="a777f07e84c9c324b82a57ca877eaf1a" ResourceName="UI/UISprites/CreateViewForm/edit_btn_quxiao_n" />
+      <Asset Guid="a7b030cffa2dc44478c14e49a22771c2" ResourceName="Materials/part_jet_flare_mat" />
+      <Asset Guid="a8c07bbe04fdaf04b80e27f651a8edd6" ResourceName="UI/UISprites/Common/button-outline" />
+      <Asset Guid="a9acb3ce4973378468d39eb8a8643e96" ResourceName="UI/UISprites/LoginForm/login_btn_yzm_n1" />
+      <Asset Guid="aa279e8a43887164a9e9b99ef5bb566c" ResourceName="UI/UISprites/CreateViewForm/edit_icon_delete_n" />
+      <Asset Guid="aa43f70d7b08ca74384ca382ed6add2f" ResourceName="UI/UISprites/CreateViewForm/edit_icon_xnrmc_n" />
+      <Asset Guid="ab45c3f613f388d43bbf43ec05eb92e2" ResourceName="UI/UISprites/Common/dialog-background" />
+      <Asset Guid="ab4774faf71b57a40a29a9e902403fe3" ResourceName="DataTables/Weapon" />
+      <Asset Guid="ab5ca31927d48d04a99ea67f417e9771" ResourceName="UI/UISprites/MineForm/me_icon_delete_n" />
+      <Asset Guid="abd1565e9e268f04cac3631d022b4ace" ResourceName="Entities/DefaultWeapon" />
+      <Asset Guid="ad56aae2bb0f2ce4a86711287e14e223" ResourceName="DataTables/Asteroid" />
+      <Asset Guid="ae6a7f967521769458b0913fa39caaf4" ResourceName="Textures/prop_asteroid_01_dff" />
+      <Asset Guid="afc18fc39ade3744397c0c993b57be53" ResourceName="Entities/EnemyShip" />
+      <Asset Guid="b031b4f2980561542a7f7ba41391edc3" ResourceName="Scenes/Menu" />
+      <Asset Guid="b0c7cf51d3fecb446ab93bf854419715" ResourceName="Materials/part_spark_blue_mat" />
+      <Asset Guid="b1c71cdb5ee235e42aa8d881e6562cdd" ResourceName="UI/UISprites/CreateViewForm/edit_icon_you_dis" />
+      <Asset Guid="b2cebe04343227945bab3729ca9a3493" ResourceName="DataTables/Armor" />
+      <Asset Guid="b44bfac45a6cb7f448eb320ecc030a9c" ResourceName="Configs/ResourceCollection" />
+      <Asset Guid="b496af1817a4dbc4fb47576606dac12a" ResourceName="UI/UIForms/MineForm" />
+      <Asset Guid="ba157ba55f72c424a9e88f3c029997c4" ResourceName="Textures/prop_asteroid_02_dff" />
+      <Asset Guid="baedbbad82997f445a8cb4da210404e0" ResourceName="Meshes/prop_asteroid_01" />
+      <Asset Guid="bbfd75fe6fe00e1448fe988173ede7f9" ResourceName="UI/UIForms/SettingForm" />
+      <Asset Guid="beba10b1e0190eb49aa35a05dcc0e9b0" ResourceName="UI/UIItems/CardItem" />
+      <Asset Guid="bf75b984df8a84987bcf3a8bf6e2862d" ResourceName="Sounds/weapon_player" />
+      <Asset Guid="c00b965294b79f54a8ce302f17af812e" ResourceName="UI/UISprites/LoginForm/login_btn_yzm_n" />
+      <Asset Guid="c0c635c095dfc1e4e908209f8220b55d" ResourceName="UI/UISprites/CreateViewForm/bianjiAudioPlaying" />
+      <Asset Guid="c2d0527df3b58a0468ea0a146b8a5214" ResourceName="UI/UISprites/CreatePreviewForm/edit_bg_n" />
+      <Asset Guid="c547624e174de984882f0a14b4bb32e1" ResourceName="Materials/vehicle_enemyShip_metal_mat" />
+      <Asset Guid="c55f26ef8dce61e4785e083e20bd2821" ResourceName="UI/UIForms/CreateEditTextForm" />
+      <Asset Guid="c58c9afddbd36d14d837fa218d772996" ResourceName="Materials/part_jet_core_mat" />
+      <Asset Guid="c5a43436c4d1a204fb771afddb5fb7e3" ResourceName="UI/UIForms/EmptyForm" />
+      <Asset Guid="c6dde28fbb9752248a148c9656c2218b" ResourceName="UI/UISprites/CreateViewForm/edit_icon_ghxnr" />
+      <Asset Guid="c7d1e11dd37634b48a9dd4012b8e4306" ResourceName="UI/UISounds/click" />
+      <Asset Guid="c9c5fb5ca89da9944bfaa2d0d22697d2" ResourceName="UI/UISprites/LoginForm/Show4" />
+      <Asset Guid="caa829ab2ffc71340a69253afdf58365" ResourceName="Music/music_menu" />
+      <Asset Guid="cadd0764941c8b646ae79b51d0ea8285" ResourceName="UI/UISprites/Common/background" />
+      <Asset Guid="cafbd1171bcacb84790b8a73c14a7268" ResourceName="UI/UISprites/CreateViewForm/edit_icon_ghxnr_n" />
+      <Asset Guid="cc55a8363c372b94f92af05d818d55f0" ResourceName="UI/UISprites/MineForm/me_icon_shtg_n" />
+      <Asset Guid="ccee7bce513c1a34685b119bd06405ae" ResourceName="UI/UISprites/MineForm/me_icon_bj_n" />
+      <Asset Guid="cfe53cf384344bd47a8680f8c5f97a7b" ResourceName="DataTables/Entity" />
+      <Asset Guid="d40cfa1db2085e744887cb861ef2c060" ResourceName="UI/UISprites/CreateViewForm/edit_icon_fangkuang_n" />
+      <Asset Guid="d45ce7e6cdc63e340bd6a7430cab55c3" ResourceName="UI/UISprites/CreateViewForm/edit_icon_ghxnr_n" />
+      <Asset Guid="d5bcc3947e020574c8635c97c4de2438" ResourceName="UI/UISprites/CreateViewForm/edit_pop_kuang" />
+      <Asset Guid="d728d683a425e6743be1769ef18d72be" ResourceName="UI/UIForms/HomeForm" />
+      <Asset Guid="d9808401c68af274a8edfbed3d1b53c7" ResourceName="Meshes/vehicle_playerShip" />
+      <Asset Guid="d99fc328ed0554a4b84e1a8539736b97" ResourceName="UI/UIForms/CreateEditAudioForm" />
+      <Asset Guid="d9f246114134b9644b2cbbea805d6a86" ResourceName="UI/UISprites/LoginForm/login_btn_n" />
+      <Asset Guid="db58965402f12ed47b4dad61a9e48c9d" ResourceName="UI/UISprites/Icons/world" />
+      <Asset Guid="df859cbb9fbc51a47bdb95399e46326e" ResourceName="UI/UISprites/MineForm/me_pop_bj" />
+      <Asset Guid="df9a451cf91a07d42ac335e4f3d1c455" ResourceName="UI/UISprites/CreateViewForm/edit_icon_stbg_n" />
+      <Asset Guid="e0792649e7774a24d8e7cceba0231c61" ResourceName="DataTables/Asteroid" />
+      <Asset Guid="e1ed18d2e34fc7d4abfaec6316202c6c" ResourceName="UI/UISprites/CreateViewForm/bianjiAudioPlay" />
+      <Asset Guid="e5ca26c53b6ab8a46b52817008d7c7fa" ResourceName="UI/UISprites/Icons/sound" />
+      <Asset Guid="e82837c9099f69a48b48fc44eb8d119d" ResourceName="UI/UISprites/Common/progressbar" />
+      <Asset Guid="e830964cdb85ff3429bca484c16bab44" ResourceName="UI/UISounds/select" />
+      <Asset Guid="e85864330b68dde498dcb6e8711815d3" ResourceName="UI/UISprites/Common/round-button-filled" />
+      <Asset Guid="eabb37cb6d738b443b398b701a64cd88" ResourceName="Textures/part_enginePulse_dff" />
+      <Asset Guid="eb5129d401216c04b9dda38b4ef927d7" ResourceName="UI/UISprites/LoginForm/login_icon_gouxuan_dis" />
+      <Asset Guid="ebbbe84feb547c94c9c8e06f52a1180a" ResourceName="UI/UISprites/CreateViewForm/bioajiAdd1" />
+      <Asset Guid="ec1fd4273e1289045b121e1c89304542" ResourceName="UI/UISprites/MineForm/me_bg_mx_s" />
+      <Asset Guid="ec4d0478e1a2e4c4699fa4cc6c5be394" ResourceName="UI/UISprites/MineForm/model" />
+      <Asset Guid="ec74d2f4fb1736a4bb23b25e992727d4" ResourceName="UI/UISprites/CreateViewForm/edit_btn_queding_n" />
+      <Asset Guid="efc27501ba4f8294db2a38bf2d221dde" ResourceName="UI/UISprites/MainForm/tuoyuankaobei3" />
+      <Asset Guid="f09c586c4552fc94d89858b91fe8625d" ResourceName="UI/UISprites/LoginForm/login_icon_delete_n" />
+      <Asset Guid="f2f4df0b7211e4c42a5638273525d8ee" ResourceName="UI/UISprites/Common/box" />
+      <Asset Guid="f2f97a713beae744181ba934f9c4113a" ResourceName="DataTables/UISound" />
+      <Asset Guid="f36c72c738c55f741afcd674a0b1245f" ResourceName="Materials/vehicle_playerShip_glass_mat" />
+      <Asset Guid="f438a72a91e1c3c4a9ced40888ffec96" ResourceName="UI/UISprites/Icons/music" />
+      <Asset Guid="f4ec271e525e14ca9927a07e6a2e153d" ResourceName="Entities/PlayerBolt" />
+      <Asset Guid="f5d7617516f84644f934e5bd36893404" ResourceName="UI/UISprites/MineForm/me_icon_shsb_n" />
+      <Asset Guid="f5dbd63f5bf4dd3488d8909fe4d61dc7" ResourceName="UI/UISprites/MineForm/me_bg_n" />
+      <Asset Guid="f6db5bbdfe0e9894798706814cd6b336" ResourceName="Textures/prop_asteroid_01_nrm" />
+      <Asset Guid="f710fa03d5bbd254faa0c0b983e78678" ResourceName="UI/UISprites/CreateViewForm/edit_icon_st_n" />
+      <Asset Guid="f7b96e744721c3d438cc9d034514e020" ResourceName="UI/UISprites/MineForm/me_pop_bj_n" />
+      <Asset Guid="fa9b4cf62c5090940905496d6aa5a42c" ResourceName="UI/UISprites/CreateViewForm/edit_icon_st" />
+      <Asset Guid="fae9a9f8e7bd09e4ba809801dd1e21f7" ResourceName="UI/UISprites/CreateViewForm/bianjitext" />
+      <Asset Guid="fcf35c23d78778c44bae38b847797e3b" ResourceName="UI/UISprites/CreateViewForm/biaojiAddImg" />
+      <Asset Guid="fd3cbf51780694849b9b019b36a3938e" ResourceName="Textures/fx_lazer_orange_dff" />
+      <Asset Guid="fdb5edd099d06b045af609ba3172400a" ResourceName="DataTables/Scene" />
+      <Asset Guid="fedd25a3c60e7ae499fc6efab9ee180b" ResourceName="Entities/EnemyEngine" />
+      <Asset Guid="ffd7937a01bc0a3449a382f2542628f6" ResourceName="UI/UISprites/CreateViewForm/bianjiAudioFinish" />
+    </Assets>
+  </ResourceCollection>
+</UnityGameFramework>
